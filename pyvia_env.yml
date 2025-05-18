@@ -1,0 +1,16 @@
+name: ViaEnv2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - hnswlib
+  - dask
+  - s_gd2
+  - ipywidgets
+  - notebook
+  - imagemagick
+  - pip
+  - pip:
+      - pybind11
+      - pyVIA
